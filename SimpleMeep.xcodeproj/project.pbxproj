@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8181313BDF42E3006B423C71 /* Pods_SimpleMeep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCAD2666FEAC0815F5ADBA9 /* Pods_SimpleMeep.framework */; };
+		823080C324C727C6003D7CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080C224C727C6003D7CDA /* AppDelegate.swift */; };
+		823080C524C727C6003D7CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080C424C727C6003D7CDA /* SceneDelegate.swift */; };
+		823080C724C727C6003D7CDA /* SimpleMeepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080C624C727C6003D7CDA /* SimpleMeepViewController.swift */; };
+		823080CA24C727C6003D7CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823080C824C727C6003D7CDA /* Main.storyboard */; };
+		823080CC24C727C9003D7CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823080CB24C727C9003D7CDA /* Assets.xcassets */; };
+		823080CF24C727C9003D7CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823080CD24C727C9003D7CDA /* LaunchScreen.storyboard */; };
+		823080DA24C7287C003D7CDA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080D924C7287C003D7CDA /* Constants.swift */; };
+		823080DD24C72AEA003D7CDA /* SimpleMeepViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080DC24C72AEA003D7CDA /* SimpleMeepViewPresenter.swift */; };
+		823080E324C8B254003D7CDA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080E224C8B254003D7CDA /* Extensions.swift */; };
+		823080E624C8B908003D7CDA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080E524C8B908003D7CDA /* BaseViewController.swift */; };
+		823080E824C8B917003D7CDA /* SimpleMeep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823080E724C8B917003D7CDA /* SimpleMeep.storyboard */; };
+		823080EC24C8BC21003D7CDA /* SimpleMeepServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080EB24C8BC21003D7CDA /* SimpleMeepServices.swift */; };
+		823080EE24C8BC5C003D7CDA /* ResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823080ED24C8BC5C003D7CDA /* ResourceModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CCAD2666FEAC0815F5ADBA9 /* Pods_SimpleMeep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMeep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823080BF24C727C6003D7CDA /* SimpleMeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823080C224C727C6003D7CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823080C424C727C6003D7CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		823080C624C727C6003D7CDA /* SimpleMeepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMeepViewController.swift; sourceTree = "<group>"; };
+		823080C924C727C6003D7CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823080CB24C727C9003D7CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823080CE24C727C9003D7CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823080D024C727C9003D7CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823080D924C7287C003D7CDA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		823080DC24C72AEA003D7CDA /* SimpleMeepViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMeepViewPresenter.swift; sourceTree = "<group>"; };
+		823080E224C8B254003D7CDA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		823080E524C8B908003D7CDA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		823080E724C8B917003D7CDA /* SimpleMeep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleMeep.storyboard; sourceTree = "<group>"; };
+		823080EB24C8BC21003D7CDA /* SimpleMeepServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMeepServices.swift; sourceTree = "<group>"; };
+		823080ED24C8BC5C003D7CDA /* ResourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceModel.swift; sourceTree = "<group>"; };
+		ECEE3F151EFA68B44898F685 /* Pods-SimpleMeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMeep.release.xcconfig"; path = "Target Support Files/Pods-SimpleMeep/Pods-SimpleMeep.release.xcconfig"; sourceTree = "<group>"; };
+		F202D6C10B59651248A27BDC /* Pods-SimpleMeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMeep.debug.xcconfig"; path = "Target Support Files/Pods-SimpleMeep/Pods-SimpleMeep.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823080BC24C727C6003D7CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181313BDF42E3006B423C71 /* Pods_SimpleMeep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BABC3AE250778AADF21FD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F202D6C10B59651248A27BDC /* Pods-SimpleMeep.debug.xcconfig */,
+				ECEE3F151EFA68B44898F685 /* Pods-SimpleMeep.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2319826EA9CCADAE049903DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CCAD2666FEAC0815F5ADBA9 /* Pods_SimpleMeep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823080B624C727C6003D7CDA = {
+			isa = PBXGroup;
+			children = (
+				823080C124C727C6003D7CDA /* SimpleMeep */,
+				823080C024C727C6003D7CDA /* Products */,
+				05BABC3AE250778AADF21FD4 /* Pods */,
+				2319826EA9CCADAE049903DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		823080C024C727C6003D7CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823080BF24C727C6003D7CDA /* SimpleMeep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823080C124C727C6003D7CDA /* SimpleMeep */ = {
+			isa = PBXGroup;
+			children = (
+				823080C224C727C6003D7CDA /* AppDelegate.swift */,
+				823080CD24C727C9003D7CDA /* LaunchScreen.storyboard */,
+				823080DE24C72BDB003D7CDA /* Common */,
+				823080D724C7283F003D7CDA /* Models */,
+				823080D824C72844003D7CDA /* Services */,
+				823080D624C72839003D7CDA /* Controllers */,
+				823080CB24C727C9003D7CDA /* Assets.xcassets */,
+				823080D024C727C9003D7CDA /* Info.plist */,
+			);
+			path = SimpleMeep;
+			sourceTree = "<group>";
+		};
+		823080D624C72839003D7CDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				823080E424C8B8E5003D7CDA /* SimpleMeepViewController */,
+				823080DF24C72BFD003D7CDA /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		823080D724C7283F003D7CDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				823080ED24C8BC5C003D7CDA /* ResourceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		823080D824C72844003D7CDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				823080EB24C8BC21003D7CDA /* SimpleMeepServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		823080DE24C72BDB003D7CDA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				823080C424C727C6003D7CDA /* SceneDelegate.swift */,
+				823080D924C7287C003D7CDA /* Constants.swift */,
+				823080E224C8B254003D7CDA /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		823080DF24C72BFD003D7CDA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				823080E524C8B908003D7CDA /* BaseViewController.swift */,
+				823080C824C727C6003D7CDA /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		823080E424C8B8E5003D7CDA /* SimpleMeepViewController */ = {
+			isa = PBXGroup;
+			children = (
+				823080C624C727C6003D7CDA /* SimpleMeepViewController.swift */,
+				823080DC24C72AEA003D7CDA /* SimpleMeepViewPresenter.swift */,
+				823080E724C8B917003D7CDA /* SimpleMeep.storyboard */,
+			);
+			path = SimpleMeepViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823080BE24C727C6003D7CDA /* SimpleMeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823080D324C727C9003D7CDA /* Build configuration list for PBXNativeTarget "SimpleMeep" */;
+			buildPhases = (
+				1943AD762F0BC6811FCCE198 /* [CP] Check Pods Manifest.lock */,
+				823080BB24C727C6003D7CDA /* Sources */,
+				823080BC24C727C6003D7CDA /* Frameworks */,
+				823080BD24C727C6003D7CDA /* Resources */,
+				6357F7ABE05BE9FB9BF08F3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMeep;
+			productName = SimpleMeep;
+			productReference = 823080BF24C727C6003D7CDA /* SimpleMeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823080B724C727C6003D7CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Jose;
+				TargetAttributes = {
+					823080BE24C727C6003D7CDA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 823080BA24C727C6003D7CDA /* Build configuration list for PBXProject "SimpleMeep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823080B624C727C6003D7CDA;
+			productRefGroup = 823080C024C727C6003D7CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823080BE24C727C6003D7CDA /* SimpleMeep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823080BD24C727C6003D7CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823080CF24C727C9003D7CDA /* LaunchScreen.storyboard in Resources */,
+				823080CC24C727C9003D7CDA /* Assets.xcassets in Resources */,
+				823080E824C8B917003D7CDA /* SimpleMeep.storyboard in Resources */,
+				823080CA24C727C6003D7CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1943AD762F0BC6811FCCE198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleMeep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6357F7ABE05BE9FB9BF08F3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMeep/Pods-SimpleMeep-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMeep/Pods-SimpleMeep-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleMeep/Pods-SimpleMeep-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823080BB24C727C6003D7CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823080C724C727C6003D7CDA /* SimpleMeepViewController.swift in Sources */,
+				823080C324C727C6003D7CDA /* AppDelegate.swift in Sources */,
+				823080C524C727C6003D7CDA /* SceneDelegate.swift in Sources */,
+				823080DD24C72AEA003D7CDA /* SimpleMeepViewPresenter.swift in Sources */,
+				823080EE24C8BC5C003D7CDA /* ResourceModel.swift in Sources */,
+				823080DA24C7287C003D7CDA /* Constants.swift in Sources */,
+				823080EC24C8BC21003D7CDA /* SimpleMeepServices.swift in Sources */,
+				823080E624C8B908003D7CDA /* BaseViewController.swift in Sources */,
+				823080E324C8B254003D7CDA /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		823080C824C727C6003D7CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823080C924C727C6003D7CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		823080CD24C727C9003D7CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823080CE24C727C9003D7CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823080D124C727C9003D7CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823080D224C727C9003D7CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823080D424C727C9003D7CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F202D6C10B59651248A27BDC /* Pods-SimpleMeep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SimpleMeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cunat.SimpleMeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823080D524C727C9003D7CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEE3F151EFA68B44898F685 /* Pods-SimpleMeep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SimpleMeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cunat.SimpleMeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823080BA24C727C6003D7CDA /* Build configuration list for PBXProject "SimpleMeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823080D124C727C9003D7CDA /* Debug */,
+				823080D224C727C9003D7CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823080D324C727C9003D7CDA /* Build configuration list for PBXNativeTarget "SimpleMeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823080D424C727C9003D7CDA /* Debug */,
+				823080D524C727C9003D7CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823080B724C727C6003D7CDA /* Project object */;
+}
